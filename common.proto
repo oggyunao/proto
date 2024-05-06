@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package common;
+
+option go_package = "github.com/oggyunao/proto/common;common";
+
+message NaCosConfig {
+  string  addr = 1;
+  string  namespace = 2;
+}
